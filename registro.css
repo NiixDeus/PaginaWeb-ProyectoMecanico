@@ -1,0 +1,22 @@
+.centrado{
+    background-color: grey;
+    width: 450px;
+    height: 600px;
+    margin: 0px auto;
+    text-align: justify;
+    border: 3px;
+    margin-top: 1px;
+}
+
+.title{
+    color: brown;
+}
+
+.titlelink{
+    color: orange;
+}
+.fondo1{
+    background-image: url(img/logomeca.png);
+    image-resolution: 10px;
+    re
+}
