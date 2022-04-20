@@ -9,3 +9,15 @@
 #myModal{
     background-color: grey !important;
 }
+
+.tablacarru{
+    text-align: center;
+    height: 300px;
+    width: 300px;
+}
+
+.textotitu{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}

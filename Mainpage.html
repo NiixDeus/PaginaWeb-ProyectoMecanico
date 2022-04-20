@@ -31,17 +31,13 @@
                   Mi Cuenta
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Iniciar Sesion</a></li>
+                  <li><a class="dropdown-item" href="inicios.html">Iniciar Sesion</a></li>
                   <li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
                   <li><hr class="dropdown-divider"></li>
                   <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
                 </ul>
               </li>
-              <!--
-              <li class="nav-item">
-                <a class="nav-link disabled">Disabled</a>
-              </li>
-              -->
+              <!--Barra buscar-->
             </ul>
             <form class="d-flex">
               <input class="form-control me-2" type="search" placeholder="Buscar Categoria O Mecanico" aria-label="Buscar">
@@ -51,60 +47,58 @@
         </div>
       </nav>
       <!--- Mensaje Quienes somos --->>
-      
-    <!--Carrusel y fotos-->
-    
-    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active" data-bs-interval="10000">
-            <img src="img/nissanv16.jpg"   class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>First slide label</h5>
-              <p>Some representative placeholder content for the first slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item" data-bs-interval="2000">
-            <img src="img/cherokee.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="img/lancer.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
+      <table>
+        <tr>
+          <td>
+            <h1 class="textotitu">Que hacemos?</h1>
+          </td>
+        </tr>
+        <tr>
+          <td>
+        <div class="card" style="width: 18rem;">
+          <img width="500" height="300" src="img/Cambio-de-aceite.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cambio de aceite</h5>
+            <p class="card-text">En MakWeen nos preocupamos de contar con la mejor calidad en Aceites de Motor y Filtros de Aceites para realizar el cambio necesario y asegurar un buen funcionamiento de su vehículo, a un buen precio.</p>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
+        </td>
+        <!-- 2da info -->
+        <td>
+          <div class="card" style="width: 18rem;">
+            <img width="500" height="300" src="img/Servicio-de-Frenos.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Servicio de frenos</h5>
+              <p class="card-text">Contamos el equipamiento necesario para garantizar el correcto funcionamiento de los frenos de su auto en la comodidad de su hogar o en su oficina.</p>
+          </div>
+        </td>
+        <!-- 3ra info -->
+        <td>
+          <div class="card" style="width: 18rem;">
+            <img width="500" height="300" src="img/Mantención-Kilometraje.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mantencion Periodica</h5>
+              <p class="card-text">Nuestro compromiso es ofrecer el mejor estándar en calidad de servicio, por eso contamos con un equipo especializado capaz de realizar un mantenimiento multimarca para cualquier tipo de vehiculo</p>
+            </div>
+          </div>
+        </td>
+        </tr>
+        </table>
+      <br>
+      <h1 class="textotitu">Nuestros Trabajos Realizados</h1>
+    </table>
       <!--Descripcion de imagenes-->
-      <!-- Button trigger modal -->
       <table>
         <tr>
           <td>
             <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" >
-              <img src="img/nissanv16.jpg" alt="">
+              <img src="img/nissanv16.jpg" height="500" width="800" alt="">
             </button>
-            <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" >
-              <img src="img/cherokee.jpg" alt="">
+            <button type="button"  data-bs-toggle="moda2" data-bs-target="#exampleModa2" >
+              <img src="img/cherokee.jpg" height="500" width="800" alt="">
             </button>
-            <button type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal" >
-              <img src="img/lancer.jpg" alt="">
+            <button type="button"  data-bs-toggle="moda3" data-bs-target="#exampleModal" >
+              <img src="img/lancer.jpg" height="500" width="800" alt="">
             </button>
           </td>
         </tr>
@@ -116,7 +110,7 @@
       </table>
 
   
-  <!-- Modal -->
+  <!-- Modal Nissan V16-->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true" #myModal>
     <div class="modal-dialog modal-dialog-centered">
 
@@ -134,20 +128,20 @@
               </div>
               <div class="row">
                 <div class="col-md-3 ms-auto">Mecanico Experimentado</div>
-                <div class="col-md-2 ms-auto">.col-md-2 .ms-auto</div>
+                <div class="col-md-2 ms-auto">Diagnostico: Motor en Mal Estado</div>
               </div>
               <div class="row">
-                <div class="col-md-6 ms-auto">.col-md-6 .ms-auto</div>
+                <div class="col-md-6 ms-auto">Fecha: 14 de Marzo de 2022</div>
               </div>
               <div class="row">
                 <div class="col-sm-9">
-                  Level 1: .col-sm-9
+                  Materiales Usados: -Llave Inglesa
                   <div class="row">
                     <div class="col-8 col-sm-6">
-                      Level 2: .col-8 .col-sm-6
+                      -Nuevo Motor
                     </div>
                     <div class="col-4 col-sm-6">
-                      Level 2: .col-4 .col-sm-6
+                      -Aceite
                     </div>
                   </div>
                 </div>
@@ -162,6 +156,75 @@
     </div>
   </div>
 
+    <!-- Modal Jeep -->
+
+  <div class="modal fade" id="ModalJeep" tabindex="-1" aria-labelledby="ModalJeep" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Jeep</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col"><img src="img/juan fernandez.jpg" width="100" height="100" alt=""></div>
+            <div class="col-md-12">
+              Mecanico: Javier Opazo
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              Diagnostico: Neumatico Desinflado
+            </div>
+            <div class="col-md-12">
+              Fecha: 18 de Abril de 2022
+            </div>
+            <div class="col-md-12">
+              Materiales Usados: Reemplazo de Neumatico
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Misubishi -->
+
+  <div class="modal fade" id="ModalMitsu" tabindex="-1" aria-labelledby="ModalMitsu" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Mitsubishi</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col"><img src="img/juan fernandez.jpg" width="100" height="100" alt=""></div>
+            <div class="col-md-12">
+              Mecanico: Camilo Hernandez
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12">
+              Diagnostico: Parabrizas Delantero Roto
+            </div>
+            <div class="col-md-12">
+              Fecha: 24 de Febrero de 2022
+            </div>
+            <div class="col-md-12">
+              Materiales Usados: Reemplazo de Vidrio
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
